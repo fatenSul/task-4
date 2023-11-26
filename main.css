@@ -24,20 +24,20 @@ header {
 }
 
 .container {
-    width: calc(100%-120px);
+    width: calc(100% - 120px);
     margin: auto;
 }
 
-body {
-    font-family: 'Poppins', sans-serif;
-}
-
-.container .row {
+header .container {
     display: flex;
     justify-content: space-between;
     align-items: center;
     flex-wrap: wrap;
     z-index: 9;
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
 }
 
 .active{
